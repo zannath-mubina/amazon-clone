@@ -33,7 +33,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename='/amazon-clone'>
       <div>
         <Routes>
           <Route path="/Login" element={<Login />} />
