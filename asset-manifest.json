@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zannath-mubina/amazon-clone/static/css/main.f55fe63e.css",
+    "main.js": "/zannath-mubina/amazon-clone/static/js/main.fe2b5c9a.js",
+    "index.html": "/zannath-mubina/amazon-clone/index.html",
+    "main.f55fe63e.css.map": "/zannath-mubina/amazon-clone/static/css/main.f55fe63e.css.map",
+    "main.fe2b5c9a.js.map": "/zannath-mubina/amazon-clone/static/js/main.fe2b5c9a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f55fe63e.css",
+    "static/js/main.fe2b5c9a.js"
+  ]
+}
