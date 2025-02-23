@@ -1,0 +1,98 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.header_logo {
+    width: 100px;
+    margin: 0 0 0 20px;
+    object-fit: contain;
+    margin-top: 10px;
+}
+
+.headerLogoIn {
+    font-size: 12px;
+    color: white;
+    margin: 0 20px 0 0;
+}
+
+.header_searchBar {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+    min-width: 240px;
+}
+
+.header_searchInput {
+    height: 40px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+}
+
+.header_searchIcon {
+    height: 40px !important;
+    width: 2em !important;
+    padding: 5px;
+    background-color: #cd9042;
+    border-radius: 0 5px 5px 0;
+}
+
+.header_navBar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_option {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navOptionLine1 {
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.navOptionLine2 {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.navOptionLine1, .navOptionLine2 {
+    white-space: nowrap;
+}
+
+.header_basket, .header_location {
+    color: white;
+    display: flex;
+}
+
+.header_location {
+    min-width: 154px;
+}
+
+.headerBasketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header_location > .header_option {
+    margin-left: 0px;
+}
+
+.header_option > button {
+    color: #FFF;
+    background-color: inherit;
+    border: 0;
+}
