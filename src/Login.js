@@ -38,7 +38,7 @@ function Login() {
     <div className='loginContainer'>
       <div className='login'>
         <Link to="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', color: '#111' }}>
-            <img className='logo' src={`${process.env.PUBLIC_URL}/Amazon_Logo.svg`} alt='Amazon logo' />
+            <img className='logo' src={`${process.env.PUBLIC_URL}/Amazon_logo.svg`} alt='Amazon logo' />
             <span className='logoIn'>.in</span>
         </Link>
         <div className="login_container">
